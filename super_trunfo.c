@@ -159,6 +159,12 @@ int main(){
 
     printf("RESULTADOS:\n");
     printf("    \n"); 
-    printf("População: Carta 1 venceu ()");
+    printf("População: Carta %d venceu\n", (populacao_carta2>populacao_carta1)+1);
+    printf("Area: Carta %d venceu\n", (area_carta2>area_carta1)+1);
+    printf("PIB: Carta %d venceu\n", (pib_carta2>pib_carta1)+1);
+    printf("Pontos Turisticos: Carta %d venceu\n", (pontos_turisticos_carta2>pontos_turisticos_carta1)+1);
+    printf("Densidade Populacional: Carta %d venceu\n", (DensidadePopulacionalCarta2>DensidadePopulacionalCarta1)+1);
+    printf("PIB Per Capta: Carta %d venceu\n", (PibPerCaptaCarta2>PibPerCaptaCarta1)+1);
+    printf("Super Poder: Carta %d venceu\n", (SuperPoderCarta2>SuperPoderCarta1)+1);
 
 }
